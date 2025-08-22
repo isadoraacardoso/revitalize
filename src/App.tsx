@@ -187,6 +187,10 @@ export default function Index() {
           <button style={styles.modalClose}>X</button>
         </div>
       )}
+
+      <footer style={styles.footer}>
+        <p>© 2025 Revitalize. Todos os direitos reservados.</p>
+      </footer>
     </div>
   );
 }
@@ -314,5 +318,15 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: 20,
     cursor: "pointer",
     fontWeight: "bold",
+  },
+  footer: {
+    width: "100%",
+    padding: "20px",
+    backgroundColor: "#fbfbeb",
+    textAlign: "center",
+    marginTop: "40px",
+    fontSize: "14px",
+    color: "#333",
+    borderTop: "1px solid #ccc",
   },
 };
