@@ -174,7 +174,7 @@ export default function Index() {
               style={styles.cardbtn}
               onClick={() => setSelectedImage(item.img)}
             >
-              Ver mais
+              Vizualizar
             </button>
           </div>
         ))}
